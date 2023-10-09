@@ -21,11 +21,6 @@ const PopularProducts = () => {
     sm:gap-4 gap-14">
       {products.map((product) => (
         <PopularProductCard key={product.name} {...product} />
-        // <div className="flex flex-col gap-5" key={product.id}>
-        //   <img src={product.image} alt={product.name} />
-        //   <h3 className="font-palanquin font-bold">{product.name}</h3>
-        //   <p className="text-slate-gray font-montserrat">{product.description}</p>
-        // </div>
       ))}
     </div>
 
